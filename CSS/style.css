@@ -45,6 +45,11 @@ ul li a:hover {
   font-weight: 700;
 }
 
+main {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
 .Splash {
   display: flex;
   margin-top: 150px;
@@ -55,4 +60,17 @@ ul li a:hover {
 .Splash > div {
   max-width: 600px;
   margin: 50px;
+}
+
+.ImageGallery {
+  display: flex;
+  justify-content: stretch;
+  background-image: url("../Images/purplenebula.png");
+  background-repeat: repeat;
+  height: 300px;
+  overflow: visible;
+}
+
+.ImageGallery img {
+  max-height: 200px;
 }
