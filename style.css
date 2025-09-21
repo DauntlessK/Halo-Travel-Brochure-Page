@@ -2,21 +2,57 @@ h1 {
   font-family: "Pattaya", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 48;
+  font-size: 48px;
 }
 
 h3 {
   font-family: "Pattaya", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 18;
 }
 
 h5 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16;
 }
 
 p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 50px;
+  background-color: #333333;
+  display: flex;
+  font-family: 'Goldman';
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  align-items: center;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+  font-weight: 700;
+}
+
+.Splash {
+  display: flex;
+  margin-top: 150px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Splash > div {
+  max-width: 600px;
+  margin: 50px;
 }
