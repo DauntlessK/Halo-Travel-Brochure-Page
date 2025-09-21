@@ -19,7 +19,7 @@ p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-ul {
+menu ul {
   list-style-type: none;
   margin: 0;
   padding-left: 50px;
@@ -33,26 +33,26 @@ ul {
   align-items: center;
 }
 
-ul li a {
+menu ul li a {
   display: block;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-ul li a:hover {
+menu ul li a:hover {
   background-color: #111111;
   font-weight: 700;
 }
 
 main {
-    margin-left: 75px;
-    margin-right: 75px;
+  margin-top: 50px;
 }
 
 .Splash {
   display: flex;
-  margin-top: 150px;
+  margin-left: 75px;
+  margin-right: 75px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -64,11 +64,13 @@ main {
 
 .ImageGallery {
   display: flex;
-  justify-content: stretch;
+  justify-content: space-evenly;
+  align-items: center;
   background-image: url("../Images/purplenebula.png");
   background-repeat: repeat;
   height: 300px;
-  overflow: visible;
+  margin-left: -20px;
+  margin-right: -20px;
 }
 
 .ImageGallery img {
