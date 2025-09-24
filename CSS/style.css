@@ -2,21 +2,29 @@ h1 {
   font-family: "Pattaya", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 48px;
+  font-size: 56px;
+  margin: 0px 0px 20px 0px;
 }
 
 h3 {
   font-family: "Pattaya", sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin: 20px 20px 10px 0px;
 }
 
 h5 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Chonburi', serif;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+hr {
+  margin: 0px 40px;
 }
 
 menu ul {
@@ -49,17 +57,46 @@ main {
   margin-top: 50px;
 }
 
-.Splash {
+.Splash2 {
+  margin-top: 100px;
   display: flex;
-  margin-left: 75px;
-  margin-right: 75px;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f1f1f1;
 }
 
-.Splash > div {
-  max-width: 600px;
-  margin: 50px;
+.Splash2 > div {
+  flex-grow: 1;
+  background-color: DodgerBlue;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  height: 600px;
+}
+
+.Splash {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 100px;
+}
+
+.Splash div {
+  border: 2px red;
+}
+
+#Poster {
+  flex-grow: 1;
+}
+
+#IntroText {
+  flex-grow: 4;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 25px;
 }
 
 .ImageGallery {
