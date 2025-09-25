@@ -3,7 +3,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 56px;
-  margin: 0px 0px 20px 0px;
+  margin: 0px;
 }
 
 h3 {
@@ -17,6 +17,7 @@ h5 {
     font-family: 'Chonburi', serif;
     font-size: 20px;
     text-transform: uppercase;
+    margin: 20px;
 }
 
 p {
@@ -58,20 +59,20 @@ main {
 }
 
 .Splash2 {
-  margin-top: 100px;
+  margin-top: 85px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #f1f1f1;
+  background-color: #d2d2d2;
 }
 
 .Splash2 > div {
-  flex-grow: 1;
+  /* flex-grow: 1;
   background-color: DodgerBlue;
-  color: white;
+  color: white; */
   margin: 10px;
   text-align: center;
-  height: 600px;
+  height: 500px;
 }
 
 .Splash {
@@ -83,16 +84,16 @@ main {
   margin-top: 100px;
 }
 
-.Splash div {
-  border: 2px red;
-}
-
 #Poster {
+  display: flex;
+  align-items: center;
   flex-grow: 1;
+  width: 300px;
 }
 
 #IntroText {
-  flex-grow: 4;
+  width: 700px;
+  flex-grow: 3;
   justify-content: start;
   align-items: center;
   flex-wrap: wrap;
@@ -112,4 +113,10 @@ main {
 
 .ImageGallery img {
   max-height: 200px;
+}
+
+.Packages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
