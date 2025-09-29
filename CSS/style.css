@@ -20,6 +20,12 @@ h5 {
     margin: 20px;
 }
 
+h6 {
+    font-family: 'Chonburi', serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
 p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -119,4 +125,52 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+table {
+  margin: 20px;
+}
+
+.Packages td {
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  flex: 1;
+}
+
+.Packages tr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Packages ul {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#PackagePrice {
+  font-family: "Pattaya", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  margin: 20px;
+}
+
+.button {
+  background-color: #c6ebf8;
+  color: black;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.button:hover {
+  background-color: #008CBA;
+  color: white;
 }
